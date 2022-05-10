@@ -1,7 +1,8 @@
 
 # InCloud: Incremental Learning for Point Cloud Place Recognition
 ![](figures/InCloud.png)
-Paper URL: [https://arxiv.org/abs/2203.00807](https://arxiv.org/abs/2203.00807)
+
+Paper URL: [https://arxiv.org/abs/2203.00807](https://arxiv.org/abs/2203.00807?style=centerme)
 
 ## Abstract  
 Place recognition is a fundamental component of robotics, and has seen tremendous improvements through the use of deep learning models in recent years. Networks can  
