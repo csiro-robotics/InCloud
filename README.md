@@ -1,6 +1,6 @@
 
 # InCloud: Incremental Learning for Point Cloud Place Recognition
-![](figures/InCloud.png?style=centerm)
+![](figures/InCloud.pdf?style=centerm)
 
 Paper URL: [https://arxiv.org/abs/2203.00807](https://arxiv.org/abs/2203.00807)
 
