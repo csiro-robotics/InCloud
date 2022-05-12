@@ -1,5 +1,8 @@
 
 # InCloud: Incremental Learning for Point Cloud Place Recognition
+
+This repository is an open-source implementation of the IEEE RA-L/IROS 2022 paper: [InCloud: Incremental Learning for Point Cloud Place Recognition](https://arxiv.org/abs/2203.00807)
+
 ![](figures/InCloud.png?style=centerm)
 
 Paper URL: [https://arxiv.org/abs/2203.00807](https://arxiv.org/abs/2203.00807)
