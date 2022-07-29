@@ -1,5 +1,5 @@
 # InCloud: Incremental Learning for Point Cloud Place Recognition
-![InCloud](./media/overview.jpg")
+![](figures/InCloud.png?style=centerm)
 This repository contains the code implementation used in the IROS2022 paper *InCloud: Incremental Learning for Point Cloud Place Recognition*. \[[arXiv](https://arxiv.org/abs/2203.00807)].  Our contributions in this repository are:
 
 - A pre-processed MulRan dataset with ground plane removed and downsampled to 4096 points to bring in-line with the pre-processing of the Oxford and In-House datasets
