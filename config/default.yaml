@@ -1,0 +1,47 @@
+save_dir: null
+debug: false
+data: 
+  num_points: 4096
+  dataset_folder: /datasets/work/d61-eif/source/incrementalPointClouds
+  aug_mode: 1
+  pin_memory: false
+model: 
+  name: MinkFPN_GeM
+  mink_quantization_size: 0.01
+  planes: [32,64,64]
+  layers: [1,1,1]
+  num_top_down: 1
+  conv0_kernel_size: 5
+  output_dim: 256
+  feature_size: 256
+  normalize_embeddings: False
+train: 
+  num_workers: 4
+  batch_size: 16
+  batch_size_limit: 256
+  batch_expansion_rate: 1.4
+  batch_expansion_th: 0.7
+  memory:
+    num_pairs: 0
+  optimizer: 
+    lr: 0.001
+    weight_decay: 0.001
+    scheduler: 'MultiStepLR'
+    scheduler_milestones: [30]
+    epochs: 60
+  loss: 
+    pr:
+      name: BatchHardTripletMarginLoss
+      margin: 0.2
+    incremental:
+      name: 'None' 
+      weight: 100
+      margin: 0.0002
+      adjust_weight: False 
+      gamma: 10
+eval:
+  batch_size: 256
+  thresh_min: 0
+  thresh_max: 1
+  num_thresholds: 1000
+  similarity: euclidean

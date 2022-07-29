@@ -1,0 +1,43 @@
+eval:
+  initial_environment_result: {'Oxford': 93.8}
+  environments: {
+    'Oxford': {
+      'stage_introduced': 0,
+      'database_files': ['pickles/Oxford/Oxford_evaluation_database.pickle'], #['pickles/Oxford/oxford_evaluation_database.pickle'],
+      'query_files': ['pickles/Oxford/Oxford_evaluation_query.pickle'],
+    },
+    'DCC': {
+      'stage_introduced': 1,
+      'database_files': ['pickles/MulRan/DCC_02_evaluation_database.pickle', 'pickles/MulRan/DCC_03_evaluation_database.pickle'],
+      'query_files': [null, null],
+    },
+    'Riverside': {
+      'stage_introduced': 2,
+      'database_files': ['pickles/MulRan/Riverside_02_evaluation_database.pickle', 'pickles/MulRan/Riverside_03_evaluation_database.pickle'],
+      'query_files': [null, null],
+    },
+    'In-house': {
+      'stage_introduced': 3,
+      'database_files': ['pickles/In-house/business_evaluation_database.pickle','pickles/In-house/residential_evaluation_database.pickle','pickles/In-house/university_evaluation_database.pickle'],
+      'query_files': ['pickles/In-house/business_evaluation_query.pickle','pickles/In-house/residential_evaluation_query.pickle','pickles/In-house/university_evaluation_query.pickle'],
+    },
+  }
+  world_thresh: {
+    'Oxford': 25,
+    'DCC': 10,
+    'Riverside': 10,
+    'In-house': 25
+  }
+  false_pos_thresh: {
+    'Oxford': -1,
+    'DCC': 20,
+    'Riverside': 20,
+    'In-house': -1
+  }
+  time_thresh: {
+    'Oxford': -1,
+    'DCC': 90,
+    'Riverside': 90,
+    'In-house': -1
+  }
+
