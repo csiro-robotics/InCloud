@@ -19,7 +19,7 @@ If you find this repository useful for your research, please consider citing the
 ```
 @inproceedings{kni2022incloud,
   title={InCloud: Incremental Learning for Point Cloud Place Recognition},
-  author={Knights, Joshua and Moghadam, Peyman and Ramezani, Milad and Sridharan, Sridha and Fookes, Clinton},
+  author={Knights, Joshua and Moghadam, Peyman and Ramezani, Milad, Sridharan, Sridha and Fookes, Clinton},
   booktitle={2022 IEEE International Conference on Intelligent Robots and Systems (IROS)},
   year={2022},
   eprint={arXiv preprint arXiv:2203.00807}
